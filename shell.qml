@@ -1,3 +1,4 @@
+//@ pragma UseQApplication
 import QtQuick
 import Quickshell
 
@@ -6,6 +7,7 @@ import qs.logout
 
 ShellRoot {
     Bar {}
+
     
     LazyLoader {
         id: logoutLoader

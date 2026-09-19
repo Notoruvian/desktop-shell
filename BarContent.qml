@@ -12,6 +12,7 @@ Item {
         anchors.verticalCenter: parent.verticalCenter
         spacing: 16
 
+        PowerMenuButton {}
         Workspaces {}
         Spotify {}
     }
