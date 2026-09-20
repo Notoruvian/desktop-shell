@@ -18,13 +18,13 @@
 
 # Features
 
-##### Matugen ready
+### Matugen ready
 - Supports dynamic color changing. Just change `Colors.qml` with matugen and the Shell colors will update immediately.
-##### Clean & compact
+### Clean & compact
 - Built to be clean & usable with things you would normally need, nothing more.
-##### Spotify Integration
+### Spotify Integration
 - A compact Spotify media widget that supports toggling play/pause. 
-##### Wlogout style logout menu
+### Wlogout style logout menu
 - A horizontal Wlogout style menu. You can change each buttons command in `shell.qml`. Some commands by default are Hyprland specific.
 
 >[!NOTE]
@@ -54,16 +54,18 @@ git clone https://github.com/notoruvian/desktop-shell.git
 ---
 ## Changes you may want to make
 
-##### Change the OS icon
+### Change the OS icon
 - In `PowerButton.qml` change the image to path to your icon of choice.
 
-##### Get rid of the large gap underneath the bar
+### Get rid of the large gap underneath the bar
 - It's there so the drop shadow doesn't get cut off. I know there are probably better ways to handle this and I will probably update it at some point. You can comment out the shadow or change the gap size in `Bar.qml` .
 
-##### Notification Widget does not open anything
+### Notification Widget does not open anything
 - It is currently hard-coded to open swaync from my personal configuration. You can change it to open whatever notification menu you have in `Notifications.qml`.
-##### Logout Commands
+### Logout Commands
 - Some buttons command's be default are hyprland specific. You can change them in `shell.qml`.
+
+---
 
 ## Inspiration / Copying
 
