@@ -4,6 +4,7 @@ import QtQuick
 import Quickshell
 import Quickshell.Io
 
+// This code was copied from: https://github.com/nucleus-hq/nucleus-shell/blob/main/quickshell/nucleus-shell/services/SystemDetails.qml
 Singleton {
 
     property real ramPercent: 0

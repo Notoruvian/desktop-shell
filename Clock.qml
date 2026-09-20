@@ -72,7 +72,7 @@ Item {
 
             font {
                 pixelSize: 16
-                family: "JetBrainsMono Nerd Font"
+                family: Appearance.font_family
             }
         }
 
